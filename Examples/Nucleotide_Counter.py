@@ -12,7 +12,7 @@ outputname = "nucleotide_output.txt"
 
 infile = open(location+filename,"r")
 sequence = infile.read().replace("\r\n","").replace("\n","")
-infile.close()
+infile.c
 
 #print(sequence)
 
